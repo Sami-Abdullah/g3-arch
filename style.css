@@ -124,7 +124,28 @@ main>section {
 #quick-list {
     font-weight: 500;
 }
+/* feature section related style */
 
+#feature-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left:25px ;
+}
+.features-card .feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+.features-card{
+    padding: 30px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,0.06);
+    border-radius: 8px;
+}
+.features2{
+    gap: 140px;
+}
 /* some face related styles */
 .facts-container {
     display: grid;
